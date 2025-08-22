@@ -1,0 +1,105 @@
+name: dnd_dice_companion
+description: "A comprehensive D&D dice rolling companion app with advanced features for tabletop gaming"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  material_symbols_icons: ^4.2777.0
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.2
+  
+  # State Management
+  provider: ^6.1.2
+  riverpod: ^2.5.1
+  flutter_riverpod: ^2.5.1
+  
+  # Data Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  sqflite: ^2.3.3+1
+  shared_preferences: ^2.2.3
+  
+  # Networking & Cloud
+  http: ^1.2.1
+  dio: ^5.4.3+1
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.19.5
+  cloud_firestore: ^4.17.3
+  
+  # Audio & Haptics
+  audioplayers: ^6.0.0
+  vibration: ^1.8.4
+  flutter_vibrate: ^1.3.0
+  
+  # 3D & Animations
+  flutter_cube: ^0.1.1
+  vector_math: ^2.1.4
+  
+  # Utilities
+  uuid: ^4.4.0
+  intl: ^0.19.0
+  collection: ^1.18.0
+  equatable: ^2.0.5
+  json_annotation: ^4.9.0
+  
+  # File handling
+  path_provider: ^2.1.3
+  file_picker: ^8.0.5
+  
+  # Charts & Analytics
+  fl_chart: ^0.68.0
+  
+  # Permissions
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+  # Code generation
+  build_runner: ^2.4.9
+  json_serializable: ^6.8.0
+  hive_generator: ^2.0.1
+  
+  # Testing
+  mockito: ^5.4.4
+  integration_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+  
+  # Assets - dice sounds, images, animations
+  assets:
+    - assets/images/
+    - assets/sounds/
+    - assets/animations/
+    - assets/dice/
+    - assets/icons/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # Custom fonts for D&D theming will be added later
+  # fonts:
+  #   - family: Cinzel
+  #     fonts:
+  #       - asset: assets/fonts/Cinzel-Regular.ttf
