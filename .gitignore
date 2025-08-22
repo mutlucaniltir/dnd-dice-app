@@ -1,0 +1,47 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Windows specific
+*.exe
+*.dll
+*.pdb
+
+# User specific files
+AppData/
+Local Settings/
+Cookies/
+Recent/
+SendTo/
+Templates/
+Start Menu/
+PrintHood/
+NetHood/
+Application Data/
+Belgelerim/
+Documents/Müziğim/
+Documents/Resimlerim/
+Documents/Videolarım/
+
+# Development tools
+.gradle/
+.android/
+.VirtualBox/
+.BigNox/
+.cursor/
+.docker/
+.config/
+.gemini/
+.bash_history
+.gitconfig
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies
+node_modules/
+*.log
